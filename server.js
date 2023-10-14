@@ -21,7 +21,7 @@ import cookieParser from "cookie-parser";
 
 import mongoose from "mongoose";
 import connectDB from "./config/dbConn.js";
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 connectDB();
